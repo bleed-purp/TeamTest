@@ -1,0 +1,32 @@
+# Unreal Engine generated folders (rebuilt automatically on each PC)
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+Builds/
+
+# Plugin build output
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.sdf
+*.VC.db
+*.opensdf
+
+# Packaged game zips
+*.zip
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Claude Code local-only settings (shared agents in .claude/agents stay in the repo)
+.claude/settings.local.json
